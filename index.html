@@ -24,15 +24,17 @@
     <header class="showcase">
         <div class="d-flex flex-row justify-content-between">
             <div class="allign-self-center">
-        <div class="showcase-top">
-            <h1>Welcome to Private School</h1></div>
+                <div class="showcase-top">
+                    <h1>Welcome to Private School</h1>
+                </div>
             </div>
-        <div class="buttons mt-4">
-            <a href="#" class="btn btn-rounded">Sign In</a>
-            <a href="#" onclick="document.getElementById('id01').style.display='block'" class="btn btn-rounded">Sign Up</a>
-        </div>        
-       
-        <!-- <div class="showcase-content">
+            <div class="buttons mt-4">
+                <a href="#" class="btn btn-rounded">Sign In</a>
+                <a href="#" onclick="document.getElementById('id01').style.display='block'" class="btn btn-rounded">Sign
+                    Up</a>
+            </div>
+
+            <!-- <div class="showcase-content">
             <h2></h2>
         </div> -->
         </div>
@@ -270,27 +272,25 @@
 
             <!-- Tab Content 6 -->
             <div id="tab-6-content" class="tab-content-item">
-              
-                <div class="d-flex flex-row">
-                        
-                
-                        <div class="">Choose Trainer</div>
-                        <div class="dropdown ">
-                                <button type="button" class="btn btn-dark btn-rounded dropdown-toggle" data-toggle="dropdown">
-                                    Trainers
-        
-                                </button>
-                                <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Trainer1</a>
-                                        <a class="dropdown-item" href="#">Trainer2</a>
-                                        <a class="dropdown-item" href="#">Trainer3</a>
-                                        <a class="dropdown-item" href="#">Trainer4</a>
-                                        <a class="dropdown-item" href="#">Trainer5</a>
-                                    </div>
+                <div class="d-flex justify-content-start mb-3">
+                    <div class="p-3">Choose Trainer :</div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-dark btn-rounded dropdown-toggle" data-toggle="dropdown">
+                            Trainers
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Trainer1</a>
+                            <a class="dropdown-item" href="#">Trainer2</a>
+                            <a class="dropdown-item" href="#">Trainer3</a>
+                            <a class="dropdown-item" href="#">Trainer4</a>
+                            <a class="dropdown-item" href="#">Trainer5</a>
+                        </div>
+                        <div class="">Choose Course :</div>
 
-               
-            </div>
-            </div>
+
+
+                    </div>
+                </div>
             </div>
             <!-- Tab Content 7 -->
             <div id="tab-7-content" class="tab-content-item">
@@ -346,50 +346,53 @@
 
 
 
-<div class="d-flex flex-row justify-content-center">
-        
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+    <div class="d-flex flex-row justify-content-center">
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
 
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
-    </div>
-  </form>
-</div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+                    </p>
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
         </div>
-    
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+    </div>
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
 
 

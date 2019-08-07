@@ -292,7 +292,7 @@ p {
     .showcase-top h1 {
         font-size: 3rem;
         line-height: 1;
-        padding-top: 30%;
+        /* padding-top: 30%; */
     }
     .footer .footer-cols {
         grid-template-columns: repeat(2, 1fr);
@@ -305,6 +305,8 @@ p {
         box-shadow: inset 30px 30px 150px #000000, inset -30px -30px 150px #000000;
     }
 }
+
+
 
 
 
@@ -377,9 +379,6 @@ input[type=text], input[type=password] {
     }
   }
 
-  #id01 {
-      /* width: 50%; */
-      
-  }
+  
 
 

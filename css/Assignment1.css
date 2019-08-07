@@ -194,7 +194,7 @@ p {
 
 /* Buttons */
 
-.myButton {
+/* .myButton {
     -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
     -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
     box-shadow: 0px 0px 0px 2px #9fb4f2;
@@ -236,7 +236,7 @@ p {
 .myButton:active {
     position: relative;
     top: 1px;
-}
+} */
 
 .btn {
     display: inline-block;

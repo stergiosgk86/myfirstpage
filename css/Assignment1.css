@@ -282,6 +282,12 @@ p {
     padding: 0 2rem;
 }
 
+@media (max-width: 1400px) {
+    .hide-sm {
+        display: none;
+    }
+}
+
 @media (max-width: 960px) {
     .hide-sm {
         display: none;

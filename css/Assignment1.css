@@ -282,11 +282,11 @@ p {
     padding: 0 2rem;
 }
 
-/* @media (max-width: 1400px) {
-    .hide-sm {
-        display: none;
+@media (max-width: 1400px) {
+    #btn {
+        margin-top: 40%;
     }
-} */
+}
 
 @media (max-width: 960px) {
     .hide-sm {
@@ -302,9 +302,6 @@ p {
     }
     .footer .footer-cols {
         grid-template-columns: repeat(2, 1fr);
-    }
-    .showcase a {
-        vertical-align: bottom;
     }
 }
 

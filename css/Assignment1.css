@@ -182,15 +182,6 @@ p {
     margin: auto;
 } */
 
-#tab-5-content .dropdown {
-    /* margin: auto; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    text-align: center;
-    /* display: grid; */
-    grid-gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
-}
 
 /* Buttons */
 

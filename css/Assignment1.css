@@ -39,6 +39,7 @@ p {
     position: relative;
     background: url('/images/3.jpg') no-repeat center fixed/cover;
 }
+
 .showcase-top {
     z-index: 2;
 }
@@ -46,21 +47,6 @@ p {
 .buttons {
     z-index: 2;
 }
-/* .showcase-top {
-    position: relative;
-    z-index: 2;
-    height: 90px;
-} */
-
-/* .showcase-top a {
-    float: right;
-} */
-/* .showcase-top a {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(-50%, -50%);
-} */
 
 .showcase-top h1 {
     font-weight: 700;
@@ -109,16 +95,6 @@ p {
 .footer li {
     line-height: 1.9;
 }
-
-/* .footer .lang-select {
-    margin-top: 2rem;
-    color: #999;
-    background-color: #000;
-    background-image: none;
-    border: 1px solid #333;
-    padding: 1rem 1.2rem;
-    border-radius: 5px;
-} */
 
 /* Hide content */
 
@@ -178,57 +154,6 @@ p {
     font-weight: bold;
 }
 
-/* .tab-content .container {
-    margin: auto;
-} */
-
-
-/* Buttons */
-
-/*.myButton {
-    -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
-    -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
-    box-shadow: 0px 0px 0px 2px #9fb4f2;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-    background: -moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-    background: -webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-    background: -o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-    background: -ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e', GradientType=0);
-    background-color: #7892c2;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    border: 1px solid #4e6096;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 19px;
-    padding: 12px 37px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #283966;
-    transition: transform 0.8s;
-}
-
-.myButton:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
-    background: -moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-    background: -webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-    background: -o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-    background: -ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2', GradientType=0);
-    background-color: #476e9e;
-    transform: scale(0.96);
-}
-
-.myButton:active {
-    position: relative;
-    top: 1px;
-} */
-
 .btn {
     display: inline-block;
     background: var(--primary-color);
@@ -254,15 +179,6 @@ p {
 .btn-rounded {
     border-radius: 5px;
 }
-
-/* #submit {
-    margin-right: 0.5rem;
-} */
-
-/* #signup {
-    top: 50%;
-    right: 95px;
-} */
 
 /* Container */
 
@@ -303,13 +219,12 @@ p {
     }
 }
 
-
-
-
-
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Full-width input fields */
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -317,20 +232,21 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
+}
+
+input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
-  }
-  
-  hr {
+}
+
+hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
-  }
-  
-  /* Set a style for all buttons */
-  button {
+}
+
+/* Set a style for all buttons */
+
+button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -339,43 +255,38 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-  }
-  
-  button:hover {
-    opacity:1;
-  }
-  
-  /* Extra styles for the cancel button */
-  .cancelbtn {
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
-  }
-  
-  /* Float cancel and signup buttons and add an equal width */
-  .cancelbtn, .signupbtn {
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn, .signupbtn {
     float: left;
     width: 50%;
-  }
-  
-  /* Add padding to container elements */
-  /* .container {
-    padding: 16px;
-  } */
-  
-  /* Clear floats */
-  .clearfix::after {
+}
+
+/* Clear floats */
+
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
-      width: 100%;
+        width: 100%;
     }
-  }
-
-  
-
-
+}
